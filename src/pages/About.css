@@ -1,0 +1,64 @@
+.About div.container {
+    padding-top: 120px;
+}
+
+.row.row-img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.About div.container h1,
+div.container h4 {
+    color: aliceblue;
+}
+
+@media screen and (max-width: 550px) {
+    .row.row-img {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .About div.container h1 {
+        font-size: 27px;
+    }
+
+    .About div.container h4 {
+        font-size: 18px;
+    }
+}
+
+.row.row-title {
+    position: relative;
+    /*animation:
+        move-welcome 4.5s;*/
+}
+
+.row.row-text {
+    position: relative;
+   /* animation:
+        move-welcome 4s;*/
+}
+
+.row.row-img img {
+    width: 650px;
+    height: auto;
+    margin-top: -9px;
+    margin-bottom: -9px;
+    margin-right: 15px;
+    position: relative;
+   /* animation:
+        move-welcome 3.5s;*/
+}
+
+@media screen and (max-width: 550px) {
+    .row.row-img img {
+        width: 365px;
+        height: auto;
+    }
+}
+
+
+.row.row-text1 {
+    position: relative;
+    /*animation:
+        move-welcome 3s;*/
+}

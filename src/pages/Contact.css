@@ -1,0 +1,61 @@
+div.Contact {
+    padding-top: 1px;
+    background-color: azure;
+    height: 100vh;
+}
+
+div.Contact div.container img {
+    padding-top: 110px;
+    width: 550px;
+    height: auto;
+}
+
+@media screen and (max-width: 550px) {
+
+    div.Contact div.container{
+        padding-top: 50px;
+    }
+
+    div.Contact div.container img {
+        padding-top: 15px;
+        width: 300px;
+        height: auto;
+    }
+}
+
+div.Contact div.container .form {
+    margin-top: 20px;
+    padding-bottom: 45px;
+    background-color: cornflowerblue;
+    border-radius: 9px;
+    border: 3px solid blue;
+}
+
+div.Contact div.container .form .content-form {
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 550px) {
+    div.Contact div.container .form {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    div.Contact div.container .form .content-form {
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+}
+
+div.Contact div.container .content-form h1,
+div.Contact div.container .content-form label {
+    color: aliceblue;
+}
+
+div.Contact div.container .form .content-form .form-group {
+    padding-top: 10px;
+}
+
+div.Contact div.container .form .content-form button {
+    color: aliceblue;
+}

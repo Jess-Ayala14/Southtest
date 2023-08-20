@@ -1,0 +1,94 @@
+div.Blog {
+    padding-top: 1px;
+    background-color: rgb(232, 214, 185);
+    height: 100vh;
+}
+
+div.Blog .container {
+    padding-top: 70px;
+}
+
+@media screen and (max-width: 550px) {
+    div.Blog .container {
+        padding-top: 30px;
+    }
+}
+
+div.Blog .container img {
+    width: 220px;
+    height: auto;
+    border: 2px solid black;
+}
+
+div.Blog .container .text {
+    padding-top: 35px;
+}
+
+div.Blog .container img.logo {
+    width: 550px;
+    height: auto;
+    border: none;
+}
+
+div.Blog .container .secondary {
+    padding-top: 35px;
+}
+
+div.Blog .container h1,
+div.Blog .container .secondary h2 {
+    padding-bottom: 15px;
+}
+
+div.Blog .container .tertiary{
+    padding-top: 70px;
+}
+
+div.Blog .container .tertiary .carousel img{
+    width: 350px;
+    height: auto;
+}
+
+@media screen and (max-width: 550px) {
+
+    div.Blog .container {
+        padding-top: 100px;
+    }
+
+    div.Blog .container img {
+        width: 100px;
+        height: auto;
+    }
+
+    div.Blog .container img.logo {
+        padding-top: 25px;
+        width: 350px;
+        height: auto;
+        border: none;
+    }
+
+    div.Blog .container .tertiary{
+        padding-top: 20px;
+    }
+    
+    div.Blog .container .tertiary .carousel img{
+        width: 225px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    div.Blog .container h1,
+    div.Blog .container h3,
+    div.Blog .container .secondary h2 {
+        padding-left: 165px;
+    }
+
+
+    div.Blog .container img.logo {
+        padding-top: 25px;
+        width: 750px;
+        height: auto;
+        border: none;
+    }
+}

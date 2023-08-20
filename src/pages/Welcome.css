@@ -1,0 +1,109 @@
+.center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+div.Welcome {
+    height: 100vh;
+    z-index: -1;
+}
+
+@keyframes move-welcome {
+    0% {
+        opacity: 0;
+        left: 0px;
+        top: -135px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+div.Welcome .container {
+    position: relative;
+    padding-top: 225px;
+    /* animation: 
+    move-welcome 4s;*/
+}
+
+div.Welcome .container img.logo {
+    width: 575px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+div.Welcome .row.picture img.pic_welcome {
+    padding-top: 220px;
+    width: 300px;
+    height: auto;
+
+}
+
+div.welcome div.promotion {
+    margin-top: 180px;
+    height: 500px;
+ }
+
+div.Welcome div.promotion button {
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+div.Welcome .container .carousel-item img {
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 550px) {
+    div.Welcome .container {
+        padding-top: 75px;
+    }
+
+    div.Welcome .container img.logo {
+        width: 250px;
+        height: auto;
+        padding-bottom: 105px;
+    }
+/*
+    div.welcome div.promotion {
+       margin-top: 20px;
+       height: 350px;
+    }*/
+
+    div.Welcome div.promotion button {
+        border-radius: 30px;
+        margin-left: 22px;
+    }
+
+    div.Welcome .container .carousel-item img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+div.Welcome .container .pic_2.carousel-item h4 {
+    color: black;
+}
