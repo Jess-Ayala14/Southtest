@@ -26,7 +26,7 @@ const Carousell = () => {
             <Carousel.Item>
               <img src={pic1} />
               <Carousel.Caption>
-                <h5 style={{ color: "white" }}>Extrusions</h5>
+                <h6 style={{ color: "white" }}> Rubber Extrusions</h6>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -38,7 +38,7 @@ const Carousell = () => {
             <Carousel.Item>
               <img src={pic3} />
               <Carousel.Caption>
-                <h5 style={{ color: "black" }}>"Polimar" Tubing</h5>
+                <h6 style={{ color: "black", marginLeft:"30px" }}>Polymar Tubing</h6>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

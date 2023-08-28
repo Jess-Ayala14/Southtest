@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Button}
+import { Container, Row, Col, Button }
   from 'react-bootstrap';
 import './Welcome.css';
 import logo from "../Img/real-logo.png";
@@ -21,17 +21,11 @@ class Welcome extends Component {
       maxWidth: '100%',
       backgroundImage:
         "url('dowel.png')",
-      backgroundPosition: '100%',
       backgroundRepeat: 'no-repeat',
-      backgroundSize: 'contain',
-      marginTop: '180px',
-      height: '500px'
-
+      backgroundSize: 'contain'
     }
 
-
     return (
-
       <div className="Welcome" style={welcomeStyle}>
         <Container>
           <Row>

@@ -9,7 +9,7 @@
 
 .About div.container h1,
 div.container h4 {
-    color: aliceblue;
+    color: rgb(36, 36, 42);
 }
 
 @media screen and (max-width: 550px) {

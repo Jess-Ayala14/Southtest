@@ -60,7 +60,6 @@ function About() {
                     </Col>
                     <Col md={1} lg={2} />
                 </Row>
-
             </div>
         </div>
 

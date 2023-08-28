@@ -100,11 +100,10 @@ const Contact = () => {
   return (
     <div className='Contact' id="Contact" style={ContactStyle}>
       <Container>
-        <Row>
+        <Row className='logo'>
           <Col xs={1} md={1} lg={2} />
           <Col xs={10} md={5}>
             <img src={Logo} alt='Logo' />
-            <h4>{process.env.AWS_SECRET_ACCESS_KEY}</h4>
           </Col>
           <Col xs={1} md={5} />
         </Row>

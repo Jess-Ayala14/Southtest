@@ -8,18 +8,6 @@ div.Blog .container {
     padding-top: 70px;
 }
 
-@media screen and (max-width: 550px) {
-    div.Blog .container {
-        padding-top: 30px;
-    }
-}
-
-div.Blog .container img {
-    width: 220px;
-    height: auto;
-    border: 2px solid black;
-}
-
 div.Blog .container .text {
     padding-top: 35px;
 }
@@ -39,24 +27,47 @@ div.Blog .container .secondary h2 {
     padding-bottom: 15px;
 }
 
-div.Blog .container .tertiary{
+div.Blog .container .tertiary {
     padding-top: 70px;
 }
 
-div.Blog .container .tertiary .carousel img{
+div.Blog .container .tertiary .carousel img {
     width: 350px;
     height: auto;
 }
 
-@media screen and (max-width: 550px) {
+div.Blog .container .row.dowel_pic img {
+    width: 170px;
+    height: auto;
+    border: 2px solid black;
+}
+
+div.Blog .container img.logo {
+    width: 350px;
+    height: auto;
+    border: none;
+}
+
+div.Blog .container .tertiary {
+    padding-top: 35px;
+}
+
+div.Blog .container .tertiary .carousel img {
+    width: 350px;
+    height: auto;
+}
+
+@media screen and (min-width: 375px) and (max-width: 390px),
+(max-height: 850px) {
 
     div.Blog .container {
-        padding-top: 100px;
+        padding-top: 75px;
     }
 
-    div.Blog .container img {
-        width: 100px;
+    div.Blog .container .row.dowel_pic img {
+        width: 105px;
         height: auto;
+        border: 2px solid black;
     }
 
     div.Blog .container img.logo {
@@ -66,29 +77,58 @@ div.Blog .container .tertiary .carousel img{
         border: none;
     }
 
-    div.Blog .container .tertiary{
+    div.Blog .container .tertiary {
         padding-top: 20px;
     }
-    
-    div.Blog .container .tertiary .carousel img{
+
+    div.Blog .container .tertiary .carousel img {
         width: 225px;
         height: auto;
     }
 }
 
-@media screen and (min-width: 1200px) {
-
-    div.Blog .container h1,
-    div.Blog .container h3,
-    div.Blog .container .secondary h2 {
-        padding-left: 165px;
+@media screen and (min-width: 768px) and (max-width: 880px) and (max-height: 1180px) {
+    div.Blog .container .row.dowel_pic img {
+        width: 170px;
+        height: auto;
+        border: 2px solid black;
     }
 
-
     div.Blog .container img.logo {
-        padding-top: 25px;
-        width: 750px;
+        width: 350px;
         height: auto;
         border: none;
+    }
+
+    div.Blog .container .tertiary {
+        padding-top: 45px;
+    }
+
+    div.Blog .container .tertiary .carousel img {
+        width: 310px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1280px) and (max-height: 720px) {
+    div.Blog .container .row.dowel_pic img {
+        width: 170px;
+        height: auto;
+        border: 2px solid black;
+    }
+
+    div.Blog .container img.logo {
+        width: 350px;
+        height: auto;
+        border: none;
+    }
+
+    div.Blog .container .tertiary {
+        padding-top: 10px;
+    }
+
+    div.Blog .container .tertiary .carousel img {
+        width: 250px;
+        height: auto;
     }
 }

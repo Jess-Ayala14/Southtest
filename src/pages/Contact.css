@@ -1,7 +1,5 @@
-div.Contact {
-    padding-top: 1px;
-    background-color: azure;
-    height: 100vh;
+div.Contact div.container {
+    padding-top: 35px;
 }
 
 div.Contact div.container img {
@@ -10,22 +8,8 @@ div.Contact div.container img {
     height: auto;
 }
 
-@media screen and (max-width: 550px) {
-
-    div.Contact div.container{
-        padding-top: 50px;
-    }
-
-    div.Contact div.container img {
-        padding-top: 15px;
-        width: 300px;
-        height: auto;
-    }
-}
-
 div.Contact div.container .form {
-    margin-top: 20px;
-    padding-bottom: 45px;
+
     background-color: cornflowerblue;
     border-radius: 9px;
     border: 3px solid blue;
@@ -35,27 +19,99 @@ div.Contact div.container .form .content-form {
     padding-top: 40px;
 }
 
-@media screen and (max-width: 550px) {
-    div.Contact div.container .form {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    div.Contact div.container .form .content-form {
-        padding-top: 15px;
-        padding-bottom: 0px;
-    }
-}
-
 div.Contact div.container .content-form h1,
 div.Contact div.container .content-form label {
     color: aliceblue;
 }
 
 div.Contact div.container .form .content-form .form-group {
-    padding-top: 10px;
+    padding-top: 7px;
 }
 
 div.Contact div.container .form .content-form button {
     color: aliceblue;
+}
+
+@media screen and (min-width: 375px) and (max-width: 390px),
+(max-height: 850px) {
+    div.Contact div.container {
+        padding-top: 40px;
+    }
+
+    div.Contact div.container .row.logo {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div.Contact div.container img {
+        padding-top: 0px;
+        width: 290px;
+        height: auto;
+    }
+
+    div.Contact div.container .form {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div.Contact div.container .form .content-form {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) and (max-height: 1180px) {
+
+    div.Contact div.container {
+        padding-top: 140px;
+    }
+
+    div.Contact div.container .row.logo {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div.Contact div.container img {
+        padding-top: 0px;
+        width: 290px;
+        height: auto;
+    }
+
+    div.Contact div.container .form {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div.Contact div.container .form .content-form {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1280px) and (max-height: 720px) {
+
+    div.Contact div.container {
+        padding-top: 65px;
+    }
+
+    div.Contact div.container .row.logo {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div.Contact div.container img {
+        padding-top: 0px;
+        width: 290px;
+        height: auto;
+    }
+
+    div.Contact div.container .form {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div.Contact div.container .form .content-form {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
 }
